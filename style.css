@@ -1,0 +1,59 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #170f0f;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+img {
+    height: 250px;
+    width: auto;
+}
+
+ul>li>a, h1 {
+    color: #ffffff;
+}
+
+footer>a {
+    color:black;
+    background-color: white;
+}
+
+.steps>li {
+    font-size: 13px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    text-align: left;
+}
+
+.steps {
+    padding-left: 30%;
+}
+
+.ingredients>li {
+    text-align: left;
+    padding-left: 35%;
+}
+
+
+/* https://www.w3schools.com/howto/howto_css_bullet_color.asp */
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+  ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: rgb(255, 255, 255); /* Change the color */
+    /*font-weight: bold;  If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
